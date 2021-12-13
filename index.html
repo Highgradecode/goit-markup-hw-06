@@ -437,8 +437,21 @@
                         </a>
                     </li>
                 </ul>
+ 
             </div>
-
+                <section class="online">
+                    <p class="online-form-title">Подпишитесь на рассылку</p>
+                    <form action="#" class="online-form">
+                        <div class="modal-form-field">
+                            <input type="email" name="subscriber-email" class="online-form-input" required id="subscriber-email"
+                                placeholder="E-mail" />
+                        </div>
+                
+                        <button type="submit">Подписаться</button>
+                
+                    </form>
+                
+                </section>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -487,18 +500,19 @@
                 />
                 </div>
 
-                <div class="modal-form-big-field">              
-                <label for="user-comment" class="modal-input-text">Комментарий</label>
-                <input 
-                type="text" 
+                <div class="modal-form-big-field">
+                    <label for="user-comment" class="modal-input-text">Комментарий</label>
+                    
+                <textarea 
                 name="user-comment" 
-                class="modal-input-big"
-                placeholder="Введите текст"
-                id="user-comment"
-                />
+                id="user-comment" 
+                class="modal-form-comments"
+                placeholder="Введите текст"></textarea>
+
                 </div>
-                
+              
                 <button type="submit">Отправить</button>
+
             </form>
         </div>
     </div>
