@@ -896,7 +896,13 @@ body {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: var(--first-text-color);
-    display: block;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
+}
 
-    
+.modal-form-field {
+    margin-bottom: 10px;
+}
+
+.modal-form-big-field {
+    margin-bottom: 20px;
+}
