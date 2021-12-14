@@ -671,9 +671,9 @@ body {
     height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+    align-content: center;
     border-radius: 4px;
+    letter-spacing: 0.06em;
 }
 
 /* Footer */
@@ -803,7 +803,7 @@ body {
 }
 
 .online-form {
-    display: flex;
+    display: inline;
     align-items: center;
     text-align: center;
 }
@@ -839,7 +839,31 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.online-form-btn {
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
+    border: 0;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    width: 200px;
+    height: 50px;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
 
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 28px;
+}
+
+.online-form-icon {
+    fill: var(--first-button-color);
+    vertical-align: text-bottom;
+    margin-left: 10px;
+}
 
 /* Madal window */
 
