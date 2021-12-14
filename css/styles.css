@@ -935,7 +935,11 @@ body {
     box-sizing: border-box;
     border-radius: 4px;
     background-color: transparent;
-    color: var(--black-color);
+    color: rgba(33, 33, 33, 0.2);
+}
+
+.modal-input:focus {
+    border-color: var(--accent-color);
 }
 
 .modal-input-text {
@@ -976,4 +980,16 @@ body {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-input-wrap {
+    position: relative;
+}
+
+.input-icon {
+    fill: 212121;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
 }
