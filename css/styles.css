@@ -1093,3 +1093,9 @@ body {
     background-color: var(--accent-color);
     border: none;
 }
+
+.modal-check-link {
+    color: var(--accent-color);
+    list-style: none;
+    text-decoration: underline;
+}
