@@ -1,4 +1,4 @@
- :root {
+:root {
     --main-background-color: #FFFFFF;
     --second-background-color: #F5F4FA;
     --hero-color: #2F303A;
@@ -1093,5 +1093,3 @@ body {
     background-color: var(--accent-color);
     border: none;
 }
-
-
