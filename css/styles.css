@@ -989,10 +989,26 @@ body {
 
 .modal-form-field {
     margin-bottom: 10px;
+    transition-property: filter;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-field:hover,
+.modal-form-field:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .modal-form-big-field {
     margin-bottom: 20px;
+    transition-property: filter;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-big-field:hover,
+.modal-form-big-field:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .modal-form-comments {
